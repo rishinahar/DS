@@ -20,10 +20,7 @@ public class DiameterOfBinaryTree {
         /* get the diameter of left and right subtrees */
         int ldiameter = diameter(root.left);
         int rdiameter = diameter(root.right);
-        
-        ArrayList list = new ArrayList();
-        list.remove(index);
- 
+         
         /* Return max of following three
           1) Diameter of left subtree
          2) Diameter of right subtree

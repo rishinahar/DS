@@ -9,7 +9,7 @@ public class SamsungInterfaceQuestion {
 	  A a = b; // 
 	  
 	  i.m1(); //A.m1
-	  a.m1(); //A.m1
+	  a.m1(); //B.m1
 	  
 	  I i2 = (I) new B();
 	  A a2 =  (A)i2;

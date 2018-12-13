@@ -19,7 +19,7 @@ public class PowerofNumbers {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
      int powerOf = 2;
-     System.out.println(powerofNumbers(100));
+     System.out.println(powerofNumbers(1024));
 	}
 
 }

@@ -53,7 +53,7 @@ public class GivenAIntegerFindMaximumNumberThatCanBeFormed {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-     int integer = -912234487;
+     int integer = 912234487;
      System.out.println(new GivenAIntegerFindMaximumNumberThatCanBeFormed().largestNumberFormed(integer));
 	}
 }
