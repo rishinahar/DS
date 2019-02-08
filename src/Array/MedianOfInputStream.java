@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Scanner;
+import java.util.SortedMap;
+import java.util.TreeMap;
 
 
 public class MedianOfInputStream {
@@ -48,13 +51,8 @@ public class MedianOfInputStream {
     public static double[] getMedian(Integer array[])
     {
     	// Sorted in Decreasing order
-    	PriorityQueue<Integer> lowers =  new PriorityQueue<Integer>  (10, new Comparator<Integer>() {
-    							public int compare(Integer a, Integer b) {
-									return -1*a.compareTo(b);
-								}
-					    	});
-    	
-    	// Sorted in Increasing order
+
+    	PriorityQueue<Integer> lowers  = new PriorityQueue<Integer>(Collections.reverseOrder());
     	PriorityQueue<Integer> highers = new PriorityQueue<Integer>();
     	
     	double [] medians = new double [array.length];

@@ -3,7 +3,7 @@ package Array;
 public class MaximumRepeatingNumber {
     
 	public static int maximumRepeatingNumber(int arr[], int n , int k)
-	{ 
+	{   // all array elements are smaller than k
 		// Iterate though input array, for every element
         // arr[i], increment arr[arr[i]%k] by k
         for (int i = 0; i< n; i++)
@@ -33,7 +33,7 @@ public class MaximumRepeatingNumber {
 		// TODO Auto-generated method stub
 		int arr[] = { 1, 2, 2, 2, 0, 2, 0, 2, 3, 8, 0, 9, 2, 3};
 		
-		System.out.println(maximumRepeatingNumber (arr , arr.length-1 , 11));
+		System.out.println(maximumRepeatingNumber (arr , arr.length-1 , 10));
 
 	}
 

@@ -5,7 +5,9 @@ public class arrayLargestSumContiguousSubarray {
 
 	{
 		
-    int ar[] = {-2, -3, 4, -1, -2, 1, 5, -3};
+	    int ar[] = {1,2,3,4,-5,6};
+
+//    int ar[] = {-2, -3, 4, -1, -2, 1, 5, -3};
 	int max_curn = Integer.MIN_VALUE;
 	int max  = Integer.MIN_VALUE;
 	int max_i =0;

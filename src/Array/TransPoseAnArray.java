@@ -32,7 +32,7 @@ public class TransPoseAnArray {
 	            System.out.println(" ");
 	        }
 	 	System.out.println("The above matrix after Transpose is ");
-	  	for(i = column-1; i >=0; i--)
+	  	for(i = 0; i <column; i++)
 	    	{
 	      	    for(j = 0; j < row; j++)
 	            {

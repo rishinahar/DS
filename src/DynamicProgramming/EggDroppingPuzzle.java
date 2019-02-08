@@ -44,7 +44,7 @@ public class EggDroppingPuzzle {
 	// Youtube link for description is https://www.youtube.com/watch?v=3hcaVyX00_4
     static int eggDropDP(int n, int k)
     {
-       /* A 2D table where entery eggFloor[i][j] will represent minimum
+       /* A 2D table where entry eggFloor[i][j] will represent minimum
        number of trials needed for i eggs and j floors. */
         int eggFloor[][] = new int[n+1][k+1];
         int res;
