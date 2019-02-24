@@ -42,6 +42,7 @@ public class TrappingRainWater {
 		} 
 
 		return result; 
+		
 	} 
 
 	public static void main(String[] args) {

@@ -18,7 +18,7 @@ public class Fibonacci {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println(new Fibonacci().fibonacci(3));
+		System.out.println(new Fibonacci().fibonacci(30));
 	}
 
 }

@@ -51,7 +51,7 @@ public class EditDistance {
             for (int j=0; j<=n; j++)
             {
             	// If first string is empty, only option is to
-                // isnert all characters of second string
+                // insert all characters of second string
                 if (i==0)
                     dp[i][j] = j;  // Min. operations = j
       
